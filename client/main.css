@@ -16,3 +16,7 @@ div#copyright
         margin-left: auto;
         margin-right: auto;
     }
+
+.wrapper{
+  text-align: center;
+}
