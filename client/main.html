@@ -1,6 +1,16 @@
 <template name="main">
-<p> hi hello html THIS IS WHERE U GET MONEY</p>
-<div class = "wrapper" id = "js-button">
-  <button class = "btn btn-lg">$</button>
+
+
+<div class="wrapper" id="button" >
+  <button class = "btn btn-lg" onclick = "myFunction()" style="font-size: 150px">$</button>
 </div>
+
+<p id = "functiontest"></p>
+
+<script>
+function myFunction(){
+  document.getElementById("functiontest").innerHTML = Math.round(Math.random()*1000);
+}
+
+</script>
 </template>

@@ -24,6 +24,22 @@ div#copyright
         margin-right: auto;
     }
 
+div#login
+      {
+      width: 250px;
+      border: 10px #f7f7f7;
+      padding: 10px;
+      margin: 10px;
+      background-color: #f7f7f7;
+  }
+#button .btn {
+      height:300px;
+      width: 300px;
+      border-radius: 50%;
+      border:5px solid grey;
+      background-color: green;
+    }
+
 .wrapper{
   text-align: center;
 }
