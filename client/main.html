@@ -1,6 +1,15 @@
 <template name="main">
 <p> hi hello html</p>
 <div class="wrapper" >
-  <button class = "btn btn-lg" id="js-button">$</button>
+  <button class = "btn btn-lg" onclick = "myFunction()">$</button>
 </div>
+
+<p id = "functiontest"></p>
+
+<script>
+function myFunction(){
+  document.getElementById("functiontest").innerHTML = "You clicked it";
+}
+
+</script>
 </template>
