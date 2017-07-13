@@ -1,14 +1,13 @@
-<template name="layout">
-  <hr>
-  <h1 class="text-center">MONEY BUTTON</h1>
-  <hr>
-
-
+<template name="layout"  {{> loginButtons}}>
+  <h1 class="text-center" style="font-family: Comic Sans MS Bold">Purple Zebra</h1>
+  <!-- This is the code for the button, probably gonna be moved to main-->
+  <div class = "wrapper" id = "js-button">
+    <button class = "btn btn-lg">Money Button</button>
+  </div>
 
   <div id="copyright">
     &copy; SG & Co all Rights Reserved 2017
   </div>
-
 
 
 </template>
