@@ -1,9 +1,7 @@
 body {
-    background-image:url("https://static.seekingalpha.com/uploads/2017/1/37462776_14836418590710_rId6.jpg");
-    color: BLACK;
-    font-family: Abadi MT Condensed Extra Bold;
-    font-weight: 400;
-}
+  background-color: #4dce4b;
+
+ }
 div#copyright
     {
         width: 100%;
