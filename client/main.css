@@ -14,7 +14,7 @@ div#copyright
         padding: 1px;
         -moz-border-radius: 35px;
         border-radius: : 35px;
-        background-color: Black;
+        background-color: #33cc33;
         color: #ffffff;
         position: fixed;
         bottom: 0;
@@ -31,13 +31,20 @@ div#login
       margin: 10px;
       background-color: #f7f7f7;
   }
-#button .btn {
+#js-button, .btn {
       height:300px;
       width: 300px;
       border-radius: 50%;
       border:5px solid grey;
       background-color: #009933;
     }
+#js-button:hover, .btn:hover {
+          height:310px;
+          width: 310px;
+          border-radius: 50%;
+          border:7px solid grey;
+          background-color: #00a838;
+        }
 
 .wrapper{
   text-align: center;
