@@ -1,9 +1,12 @@
 body {
     background: #33cc33;
-    font-family:Abadi MT Condensed Extra Bold;
-    font-weight: 400;
+    font-family: Arial
+
+    font-weight: 500;
 
 }
+
+
 div#copyright
     {
         width: 100%;
