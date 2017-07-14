@@ -1,13 +1,10 @@
 <template name = 'admins'>
   <div>
-  <button class = "btn btn-lg" id = "js-button2" onclick = 'myFunction()'> Pick a Winner
+  <button class = "btn btn-lg" id = "js-button2"> Pick a Winner
   </button>
 </div>
   <p id = "functiontest"></p>
+  {{> previouswinners}}
 
-  <script>
-  function myFunction(){
-    document.getElementById("functiontest").innerHTML = Math.round(Math.random()*1000);
-  }
-  </script>
+
 </template>

@@ -1,3 +1,16 @@
 <template name="previouswinners">
   <h1> Previous Winners </h1>
+  <ul>
+  {{#each u in users}}
+    {{> winner u = u}}
+   {{/each}}
+ </ul>
+</template>
+
+<template name="winner">
+     <li> ${{u.winnings}} --- {{u.when}}
+        {{#if youwon}}
+          You won!!!
+          {{/if}}
+     </li>
 </template>
