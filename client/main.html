@@ -1,12 +1,4 @@
 <template name="main">
-  {{#if currentUser}}
-  {{>yield}}
-  {{else}}
-  <br>
-  <br>
-  <p class="paragraph1">You must login to access this site!</p>
-
-  {{/if}}
 
   <script>
   function myFunction2(){
@@ -15,22 +7,17 @@
   </script>
 
 
+
 <div class="wrapper" >
-  <button class = "btn btn-lg" id="js-button" style="font-size: 150px" onclick = "setTimeout(timer, 86400000)">$</button>
+  <button class = "btn btn-lg" id="js-button" style="font-size: 150px">$</button>
 </div>
 
-<script>
-function timer(){
-  alert('Todays winner is ....')
-}</script>
-
-
 <p id = "functiontest"></p>
+
 <script>
 function myFunction(){
   document.getElementById("functiontest").innerHTML = Math.round(Math.random()*1000);
 }
+
 </script>
-
-
 </template>

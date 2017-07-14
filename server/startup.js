@@ -1,3 +1,3 @@
-Meteor.startup(function(){
-  UserInfo.remove({});
+Meteor.startup(function () {
+	UserInfo.remove({});
 });
