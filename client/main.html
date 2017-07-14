@@ -7,17 +7,22 @@
   </script>
 
 
-
 <div class="wrapper" >
-  <button class = "btn btn-lg" id="js-button" style="font-size: 150px">$</button>
+  <button class = "btn btn-lg" id="js-button" style="font-size: 150px" onclick = "setTimeout(timer, 3000)">$</button>
 </div>
 
-<p id = "functiontest"></p>
+<script>
+function timer(){
+  alert('Todays winner is ....')
+}</script>
 
+
+<p id = "functiontest"></p>
 <script>
 function myFunction(){
   document.getElementById("functiontest").innerHTML = Math.round(Math.random()*1000);
 }
-
 </script>
+
+
 </template>
