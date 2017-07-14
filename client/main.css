@@ -1,9 +1,8 @@
+
 body {
-    background: #33cc33;
+    background-color:#33cc33;
     font-family: Arial;
-
     font-weight: 400;
-
 }
 
 .paragraph1{
@@ -92,7 +91,7 @@ div#login
       height:300px;
       width: 300px;
       border-radius: 50%;
-      border:6px solid yellow;
+      border:9px solid yellow;
       background-color: #009933;
       position: absolute;
       top: 0;
@@ -109,7 +108,7 @@ div#login
           height:310px;
           width: 310px;
           border-radius: 50%;
-          border:9px solid yellow;
+          border:12px solid yellow;
           background-color: #00a838;
           z-index: -1;
         }
