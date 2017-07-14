@@ -1,8 +1,8 @@
 body {
     background: #33cc33;
-    font-family: Arial
+    font-family: Arial;
 
-    font-weight: 500;
+    font-weight: 400;
 
 }
 
@@ -11,6 +11,59 @@ body {
   text-align: center;
 }
 
+div#element1
+    {
+          height:80px;
+          width: 80px;
+          border-radius: 50%;
+          border:3px solid yellow;
+          background-color: #009933;
+          margin: 10px;
+          position: absolute;
+          left: 0;
+          top: 10%;
+
+        }
+div#element2
+{
+      height:80px;
+      width: 80px;
+      border-radius: 50%;
+      border:3px solid yellow;
+      background-color: #009933;
+      margin: 10px;
+      position: absolute;
+      right: 0;
+      top:10%;
+
+    }
+div#element3
+    {
+        height:80px;
+        width: 80px;
+        border-radius: 50%;
+        border:3px solid yellow;
+        background-color: #009933;
+        margin: 10px;
+        position:absolute;
+        left: 0;
+        bottom: 0;
+
+      }
+div#element4
+    {
+      height:80px;
+      width: 80px;
+      border-radius: 50%;
+      border:3px solid yellow;
+      background-color: #009933;
+      margin: 10px;
+      position:absolute;
+      right: 0;
+      bottom: 0;
+
+    }
+
 div#copyright
     {
         width: 100%;
@@ -18,7 +71,6 @@ div#copyright
         padding: 1px;
         -moz-border-radius: 35px;
         border-radius: : 35px;
-        background-color: #33cc33;
         color: #ffffff;
         position: fixed;
         bottom: 0;
@@ -35,18 +87,28 @@ div#login
       margin: 10px;
       background-color: #f7f7f7;
   }
+
 #js-button, .btn {
       height:300px;
       width: 300px;
       border-radius: 50%;
-      border:5px solid grey;
+      border:6px solid yellow;
       background-color: #009933;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      padding: 0;
+      margin: auto;
+
     }
+
 #js-button:hover, .btn:hover {
           height:310px;
           width: 310px;
           border-radius: 50%;
-          border:7px solid grey;
+          border:9px solid yellow;
           background-color: #00a838;
         }
 
