@@ -9,42 +9,27 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" style="font-size:24px" href="/">MoneyButton</a>
+      <a class="navbar-brand" href="/">MoneyyButton</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li ><a href="/previouswinners">Previous Winners <span class="sr-only">(current)</span></a></li>
-        <li><a href="/contactus">Contact Us</a></li>
-        <li><a href="/aboutus">About Us</a></li>
-        <li><a href="/allClicks">AllClicks</a></li>
+        <li ><a href="#">Previous Winners <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Contact Us</a></li>
+
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <div id="login">
           <li >{{> loginButtons}}</li>
-        </div>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+  <h1 class="text-center" style="font-family: Comic Sans MS Bold">Purple Zebra</h1>
   <!-- This is the code for the button, probably gonna be moved to main-->
-    {{#if currentUser}}
-    {{>yield}}
-    {{else}}
-    <br>
-    <br>
-    <p class="paragraph1">You must login to access this site!</p>
-
-    {{/if}}
-
+    {{> yield}}
   <div id="copyright">
-    &copy; SG & Co All Rights Reserved 2017...
+    &copy; MoneyButton All Rights Reserved 2017...
   </div>
 
 
