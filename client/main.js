@@ -1,7 +1,7 @@
 Template.main.events({
   "click #js-button"(event,instance){
     console.log("hey it worked");
-    UserInfo.insert({user:Meteor.userId(),when:new Date()})
+    UserInfo.insert({user:Meteor.userId(),when:moment().format('MMMM Do YYYY, h:mm:ss a')})
     location.reload();
 
   },

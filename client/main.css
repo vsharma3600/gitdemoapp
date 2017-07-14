@@ -3,6 +3,7 @@ body {
     background-color:#33cc33;
     font-family: Arial;
     font-weight: 400;
+
 }
 
 .paragraph1{
@@ -111,7 +112,11 @@ div#login
           border:12px solid yellow;
           background-color: #00a838;
           z-index: -1;
+          background-image: url("https://media.giphy.com/media/72HahsJD4atSE/giphy.gif");
+          background-position: center;
+          background-size: 135%;
         }
+
 
 .wrapper{
   text-align: center;
