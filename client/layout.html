@@ -34,7 +34,15 @@
   <br>
   <br>
   <!-- This is the code for the button, probably gonna be moved to main-->
-    {{> yield}}
+    {{#if currentUser}}
+    {{>yield}}
+    {{else}}
+    <br>
+    <br>
+    <p class="paragraph1">You must login to access this site!</p>
+
+    {{/if}}
+
   <div id="copyright">
     &copy; SG & Co All Rights Reserved 2017...
   </div>

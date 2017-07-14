@@ -6,6 +6,10 @@ body {
 
 }
 
+.paragraph1{
+  font-size: 18px;
+  text-align: center;
+}
 
 div#copyright
     {
