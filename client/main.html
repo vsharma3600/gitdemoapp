@@ -1,4 +1,12 @@
 <template name="main">
+  {{#if currentUser}}
+  {{>yield}}
+  {{else}}
+  <br>
+  <br>
+  <p class="paragraph1">You must login to access this site!</p>
+
+  {{/if}}
 
   <script>
   function myFunction2(){
@@ -8,7 +16,7 @@
 
 
 <div class="wrapper" >
-  <button class = "btn btn-lg" id="js-button" style="font-size: 150px" onclick = "setTimeout(timer, 3000)">$</button>
+  <button class = "btn btn-lg" id="js-button" style="font-size: 150px" onclick = "setTimeout(timer, 86400000)">$</button>
 </div>
 
 <script>
