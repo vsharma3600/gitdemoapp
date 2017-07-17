@@ -1,6 +1,6 @@
 
 body {
-    background-color:#33cc33;
+    background-color:#66f070;
     font-family: Arial;
     font-weight: 400;
 
@@ -21,8 +21,8 @@ div#element1
           height:80px;
           width: 80px;
           border-radius: 50%;
-          border:3px solid yellow;
-          background-color: #009933;
+          border:3px solid #e6f066;
+          background-color: #43ab4b;
           margin: 10px;
           position: absolute;
           left: 0;
@@ -34,8 +34,8 @@ div#element2
       height:80px;
       width: 80px;
       border-radius: 50%;
-      border:3px solid yellow;
-      background-color: #009933;
+      border:3px solid #e6f066;
+      background-color: #43ab4b;
       margin: 10px;
       position: absolute;
       right: 0;
@@ -47,8 +47,8 @@ div#element3
         height:80px;
         width: 80px;
         border-radius: 50%;
-        border:3px solid yellow;
-        background-color: #009933;
+        border:3px solid #e6f066;
+        background-color: #43ab4b;
         margin: 10px;
         position:absolute;
         left: 0;
@@ -60,8 +60,8 @@ div#element4
       height:80px;
       width: 80px;
       border-radius: 50%;
-      border:3px solid yellow;
-      background-color: #009933;
+      border:3px solid #e6f066;
+      background-color: #43ab4b;
       margin: 10px;
       position:absolute;
       right: 0;
@@ -97,8 +97,8 @@ div#login
       height:300px;
       width: 300px;
       border-radius: 50%;
-      border:9px solid yellow;
-      background-color: #009933;
+      border:9px solid #e6f066;
+      background-color: #43ab4b;
       position: absolute;
       top: 0;
       left: 0;
@@ -114,8 +114,8 @@ div#login
           height:310px;
           width: 310px;
           border-radius: 50%;
-          border:12px solid yellow;
-          background-color: #00a838;
+          border:12px solid #e6f066;
+          background-color: #43ab4b;
           z-index: -1;
           background-image: url("https://media.giphy.com/media/72HahsJD4atSE/giphy.gif");
           background-position: center;
