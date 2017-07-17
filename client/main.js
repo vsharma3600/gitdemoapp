@@ -37,6 +37,13 @@ Template.main.events({
 
   })
 
+  Template.main.rendered = function() {
+      if(!this._rendered) {
+        this._rendered = true;
+        $('#pageloadad').modal('show');
+      }
+  }
+
 /*setInterval(settime, 5000);
 
 //window.onload = settime

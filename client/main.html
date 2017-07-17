@@ -1,18 +1,39 @@
 <template name="main">
+
+  <div class="modal fade" id="pageloadad" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Advertisement</h4>
+          </div>
+          <div class="modal-body">
+            <img class="center-block modalad" src="images/{{randad}}">
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+
   <div id="element1" style="font-size:55px" class="text-center">
     $
     </div>
     <div id="element2" style="font-size:55px" class="text-center">
     $
     </div>
-<div class="clicks">
+<div class="clicks" >
   {{clicks}}
 
 </div>
 
-<img src="images/{{randad}}" width="500" style="float:left; margin-top:10vh">
+<img src="images/{{randad}}" class="ad1"/>
+<img src="images/{{randad}}" class="ad2"/>
 
-<img src="images/{{randad}}" width="500" style="float:right; margin-top:10vh">
+<img src="images/{{randad}}" class="ad3"/>
+<img src="images/{{randad}}" class="ad4"/>
 
 <div class="wrapper" >
   <button class = "btn btn-lg" id="js-button" style="font-size: 170px">
