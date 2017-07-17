@@ -1,3 +1,19 @@
+function pickrandomad(){
+  var z = ['coke-ad.jpg','mcdonalds-ad.jpg'];
+  console.log(JSON.stringify(z));
+  var x = Math.round(Math.random()*(z.length-1))
+  console.log(x);
+  var y = z[x]
+  console.dir(y);
+  return y;
+
+}
+
+Template.main.helpers({
+  randad(){return pickrandomad();}
+})
+
+
 Template.main.events({
   "click #js-button"(event,instance){
     console.log("hey it worked");
