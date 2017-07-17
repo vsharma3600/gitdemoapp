@@ -11,20 +11,6 @@ body {
   text-align: center;
 }
 
-div.middle {
-
-    height: 200px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div.col {
-    float: left;
-    width: 25%;
-}
-
-
 div#element1
     {
           height:80px;
@@ -129,7 +115,6 @@ div#login
           background-image: url("https://media.giphy.com/media/72HahsJD4atSE/giphy.gif");
           background-position: center;
           background-size: 135%;
-          color: transparent;
         }
 
 
@@ -140,6 +125,6 @@ div#login
 .clicks{
   text-align: center;
   z-index: 1000;
-  font-size: 700%;
+  font-size: 600%;
   font-family: "comicsans"
 }
