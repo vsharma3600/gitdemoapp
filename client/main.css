@@ -131,14 +131,20 @@ div#login
 }
 .clicks{
   text-align: center;
-  z-index: 1000;
-  font-size: 600%;
-  font-family: helvetica;
+  z-index: -1;
+  font-size: 72px;
+  font-family: Helvetica;
+  position: absolute;
+  top: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
 .ad1{
   width: 200px;
   position: absolute;
-  top:175px;
+  top:160px;
   z-index: -1;
 
 
@@ -146,14 +152,14 @@ div#login
 .ad2{
   width: 200px;
   position: absolute;
-  bottom: 150px;
-
+  bottom: 100px;
+  z-index: -1;
 }
 .ad3{
   width: 200px;
   position: absolute;
   right:0;
-  top:175px;
+  top:160px;
   z-index: -1;
 
 }
@@ -161,9 +167,17 @@ div#login
   width: 200px;
   position: absolute;
   right: 0;
-  bottom:150px;
+  bottom:100px;
+  z-index: -1;
 
 }
 .modalad{
   width: 300px;
+}
+
+@media only screen and (max-width: 909px){
+  .clicks{
+    top: 85px;
+    font-size: 55px;
+  }
 }
