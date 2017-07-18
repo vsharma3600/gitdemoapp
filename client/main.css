@@ -173,11 +173,68 @@ div#login
 }
 .modalad{
   width: 300px;
+
 }
 
-@media only screen and (max-width: 909px){
+@media only screen and (max-width: 910px){
   .clicks{
-    top: 85px;
+    top: 145px;
     font-size: 55px;
+  }
+  #element1,#element2,#element3, #element4{
+    display:none;
+  }
+  .ad1{
+    top:140px;
+    left:0;
+    width: 150px;
+  }
+  .ad2{
+    bottom:20px;
+    left:0;
+    width: 150px;
+  }
+  .ad3{
+    top:140px;
+    right:0;
+    width: 150px;
+  }
+  .ad4{
+    bottom:20px;
+    right:0;
+    width: 150px;
+  }
+  #js-button, .btn {
+    top:175px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .clicks{
+    top: 65px;
+    font-size: 55px;
+  }
+  #element1,#element2,#element3, #element4{
+    display:none;
+  }
+  .ad1{
+    top:60px;
+    left:0;
+    width: 100px;
+  }
+  .ad2{
+    bottom:10px;
+    left:0;
+    width: 100px;
+  }
+  .ad3{
+    top:60px;
+    right:0;
+    width: 100px;
+  }
+  .ad4{
+    bottom:10px;
+    right:0;
+    width: 100px;
   }
 }
