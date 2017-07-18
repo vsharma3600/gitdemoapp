@@ -1,5 +1,5 @@
 function pickrandomad(){
-  var z = ['coke-ad.jpg','mcdonalds-ad.jpg','logo.jpg'];
+  var z = ['coke-ad.jpg','mcdonalds-ad.jpg','logo.jpg','tab.jpg','download.jpg'];
   console.log(JSON.stringify(z));
   var x = Math.round(Math.random()*(z.length-1))
   console.log(x);
